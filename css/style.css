@@ -69,7 +69,23 @@ nav a{
     padding: 5px 10px;
     color: black;
 }
+h2{
+    font-size: 2.2em;
+}
 
+h3{
+    font-size: 2em;
+}
+
+.disc{
+    margin-top: 20px;
+    border-radius:15px;
+    padding: 0px 20px;
+    margin:20px 5px 0px 5px;
+    display: inline-block;
+    background-color: white;
+    color:black;
+}
 #primas{
     background: url(../img/jumbo.png);
     width: 100vw;
@@ -96,15 +112,7 @@ nav a{
     color:white;
 }
 
-.disc{
-    margin-top: 20px;
-    border-radius:15px;
-    padding: 0px 20px;
-    margin:20px 5px 0px 5px;
-    display: inline-block;
-    background-color: white;
-    color:black;
-}
+
 
 .uno a{
     color:black;
@@ -132,10 +140,6 @@ nav a{
 
 #primasezm div{
     float: left;
-}
-
-h2{
-    font-size: 2.2em;
 }
 #primasezm div:nth-child(1){
     display: inline-block;
@@ -168,9 +172,6 @@ h2{
 
 }
 
-h2{
-    font-size: 2.2em;
-}
 #secondasezm div:nth-child(1){
     display: inline-block;
     width: 10%;
@@ -200,9 +201,6 @@ h2{
     float: left;
 }
 
-h2{
-    font-size: 2.2em;
-}
 #quartasezm div:nth-child(1){
     display: inline-block;
     width: 30%;
@@ -227,3 +225,69 @@ h2{
     width: 50%;
     margin:auto;
 }
+
+footer{
+    background-color: rgb(26, 24, 24);
+}
+
+footer .container{
+    width:70%;
+    margin:auto;
+    color: white;
+}
+
+footer .container::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container hr{
+    border: 1px solid royalblue;
+}
+
+.tre{
+    padding: 10px 15px;
+    background-color: rgb(96, 105, 240);
+    color: white;
+}
+
+.tre a{
+    color:white;
+}
+
+.foot{
+    float: left;
+    width: 20%;
+    padding:20px;
+}
+
+#primasezf img{
+    margin-top:10px;
+    width:10%;
+}
+
+#primasezf span{
+    margin-left:10px;
+    color:white
+}
+
+.foot ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot ul{
+    list-style-type: none;
+    color: white;
+}
+
+.foot ul li {
+    margin:20px;
+}
+
+.foot .title a{
+    color: royalblue;
+}
+
