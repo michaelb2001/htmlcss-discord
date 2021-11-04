@@ -120,8 +120,8 @@ nav a{
 }
 
 #primasezm{
-    width:90%;
-    margin:auto;
+    margin-top:50px;
+    padding: 50px;
 }
 
 #primasezm::after{
@@ -185,3 +185,45 @@ h2{
     margin:0 20%;
 }
 
+#quartasezm{
+    margin-top:50px;
+    padding: 50px;;
+}
+
+#quartasezm::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#quartasezm div{
+    float: left;
+}
+
+h2{
+    font-size: 2.2em;
+}
+#quartasezm div:nth-child(1){
+    display: inline-block;
+    width: 30%;
+    margin-left:10%;
+
+}
+
+#quartasezm div:nth-child(2){
+    display: inline-block;
+    width: 10%;
+    margin:3% 20%;
+}
+
+#ultima{
+    margin-top:50px;
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(241, 240, 240);
+}
+
+#utlima .container{
+    width: 50%;
+    margin:auto;
+}
