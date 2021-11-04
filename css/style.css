@@ -119,4 +119,69 @@ nav a{
     color: white;
 }
 
+#primasezm{
+    width:90%;
+    margin:auto;
+}
+
+#primasezm::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#primasezm div{
+    float: left;
+}
+
+h2{
+    font-size: 2.2em;
+}
+#primasezm div:nth-child(1){
+    display: inline-block;
+    width: 30%;
+    margin-left:10%;
+
+}
+
+#primasezm div:nth-child(2){
+    display: inline-block;
+    width: 10%;
+    margin:3% 20%;
+}
+
+
+#secondasezm{
+    margin-top:50px;
+    padding: 50px;
+    background-color:rgb(241, 240, 240);
+
+}
+#secondasezm::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#secondasezm div{
+    float: left;
+
+}
+
+h2{
+    font-size: 2.2em;
+}
+#secondasezm div:nth-child(1){
+    display: inline-block;
+    width: 10%;
+    margin-left:20%;
+    margin-top:3%;
+
+}
+
+#secondasezm div:nth-child(2){
+    display: inline-block;
+    width: 30%;
+    margin:0 20%;
+}
 
