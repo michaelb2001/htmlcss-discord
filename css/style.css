@@ -15,6 +15,7 @@ header{
     left: 0;
     width: 100%;
     text-align: center;
+    z-index:2;
 }
 
 header:after{
@@ -23,12 +24,11 @@ header:after{
     clear: both;
 }
 
-.container{
+header  .container{
     width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
-
 }
 
 #logo{
@@ -70,18 +70,53 @@ nav a{
     color: black;
 }
 
-section{
+#primas{
     background: url(../img/jumbo.png);
     width: 100vw;
     height: 600px;
     background-position: center;
     background-size: cover;
     text-align: center;
-    line-height: 600px;
-    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+
 }
 
-section div{
-    
+#primas h1{
+    font-size: 3em;
+    margin-bottom: 20px;
 }
+#primas .container{
+    width: 50%;
+    margin:auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+
+.disc{
+    margin-top: 20px;
+    border-radius:15px;
+    padding: 0px 20px;
+    margin:20px 5px 0px 5px;
+    display: inline-block;
+    background-color: white;
+    color:black;
+}
+
+.uno a{
+    color:black;
+    background-color: white;
+}
+
+.due{
+    background-color: black;
+}
+
+.due a{
+    color: white;
+}
+
 
