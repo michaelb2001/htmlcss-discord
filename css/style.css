@@ -159,6 +159,7 @@ h3{
 #secondasezm{
     margin-top:50px;
     padding: 50px;
+    background-color:rgb(241, 240, 240);
 
 }
 #secondasezm::after{
@@ -184,6 +185,7 @@ h3{
     display: inline-block;
     width: 30%;
     margin:0 20%;
+
 }
 
 #quartasezm{
@@ -294,4 +296,16 @@ footer .container::after{
 nav ul li:hover,.accedi:hover,.disc:hover{
     box-shadow: 0px 4px 4px 0px;
     lighting-color: royalblue;
+}
+
+.social{
+    margin:20px 0px;
+}
+
+.social i{
+    margin:0px 5px;
+}
+
+.social a{
+    color: white;
 }
